@@ -11,6 +11,25 @@ body {
     background-color: #333647;
 }
 
+/* section background transparent */
+
+.bg_transparent {
+    
+}
+
+#bg_trans1 img {
+    width: 30%;
+    z-index: -1;
+}
+
+/*body content */
+
+.body_content {
+
+}
+
+/* section header */
+
 .header_wrap {
     margin-top: 50px;
     margin-right: 125px;
@@ -31,12 +50,20 @@ body {
     width: 100%;
 }
 
-#link_nav_email img {
-    width: 3%;
+#icon_message {
+    width: 20px;
     margin-right: 10px;
 }
 
-#link_nav_email a {
+#icon_message img {
+    width: 100%;
+}
+
+#email {
+    
+}
+
+#email a {
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -53,4 +80,52 @@ body {
 #link_nav_social a, p{
     color: white;
     text-decoration: none;
+}
+
+/* section content */
+
+.sec_main_wrap {
+    margin: 100px 125px 0 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_pic {
+    display: flex;
+    justify-content: center;
+}
+
+.profile_pic img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.hi {
+    margin-top: 33px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+#hi_word p {
+    margin: 0 10px 0px 100px;
+    font-size: 23px;
+}
+
+#hi_icon img {
+    width: 20%;
+}
+
+.titles {
+
+}
+
+.titles p {
+    font-size: 80px;
+    text-align: center;
+    font-weight: 500;
 }
