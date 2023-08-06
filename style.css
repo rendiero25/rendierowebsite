@@ -14,18 +14,18 @@ body {
 /* section background transparent */
 
 .bg_transparent {
-    
+    position: absolute;
 }
 
 #bg_trans1 img {
     width: 30%;
-    z-index: -1;
 }
 
 /*body content */
 
 .body_content {
-
+    position: absolute;
+    width: 100%;
 }
 
 /* section header */
@@ -97,7 +97,7 @@ body {
 }
 
 .profile_pic img {
-    width: 20%;
+    width: 15%;
     border-radius: 50%;
 }
 
@@ -111,9 +111,18 @@ body {
     justify-content: center;
 }
 
+#hi_word {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
 #hi_word p {
-    margin: 0 10px 0px 100px;
     font-size: 23px;
+}
+
+#hi_color {
+    color: #9c9c9c;
 }
 
 #hi_icon img {
@@ -128,4 +137,69 @@ body {
     font-size: 80px;
     text-align: center;
     font-weight: 500;
+    background: -webkit-linear-gradient(360deg,rgba(255, 255, 255), rgba(255, 255, 255, 3%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+#btn_latestprojects {
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+#btn_latestprojects a {
+    color: white;
+    text-decoration: none;
+    background-color: #323848;
+    padding: 15px 50px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3B4257;
+    font-size: 18px;
+    /*box-shadow: 0 50px 100px #000;*/
+}
+
+#btn_latestprojects_shadow {
+    width: 200px;
+    height: 30px;
+    box-shadow: 0 5px 50px #000;
+    position: relative;
+    margin-top: -13px;
+    margin-left: 13px;
+    z-index: -1;
+}
+
+.sec_logo_company {
+
+}
+
+.logo_company_bg {
+    background-color: #282C38;
+    height: 300px;
+    border-top: #3B4257;
+    border-bottom: #3B4257;
+    border-left: #282C38;
+    border-right: #282C38;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_company {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.logo_company img {
+    width: 10%;
+}
+
+.about_me {
+    margin-top: 130px;
+}
+
