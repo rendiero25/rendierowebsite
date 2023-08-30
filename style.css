@@ -178,13 +178,9 @@ body {
     color:#d1b176;
 }
 
-.sec_logo_company {
-
-}
-
 .logo_company_bg {
     background-color: #282C38;
-    height: 300px;
+    height: auto;
     border-top: #3B4257;
     border-bottom: #3B4257;
     border-left: #282C38;
@@ -192,7 +188,8 @@ body {
     border-style: solid;
     border-width: 2px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+
 }
 
 .logo_company {
@@ -200,11 +197,22 @@ body {
     flex-direction: row;
     align-items: center;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 100px 125px;
 }
 
-.logo_company img {
-    width: 10%;
+.logo_size {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.logo_size img {
+    width: 80%;
+    object-fit: cover;
 }
 
 /* About Me Section */
@@ -313,6 +321,8 @@ body {
 .portsize {
     width: 450px;
     height: 450px;
+    overflow: hidden;
+    position: relative;
 }
 
 .picport {
